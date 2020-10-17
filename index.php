@@ -27,8 +27,7 @@ include 'header.php';
             <tbody>
                 <?php
                 while ($row = mysqli_fetch_assoc($result)) {
-                //$row = mysqli_fetch_assoc($result);
-
+                //this method returns an associtive array (colomns as key value) 
                 ?>
                 <tr>
                     <td><?php echo $row['sid']; ?></td>
